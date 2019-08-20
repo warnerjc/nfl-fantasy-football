@@ -9,28 +9,26 @@ export class NflApiService {
   constructor(private http: HttpClient) { }
 
   getGameStats() {
-    const gameStatsURL = 'http://api.fantasy.nfl.com/v1/game/stats?format=json';
+    const gameStatsURL = 'http://localhost:4200/assets/nfl-api-json/game-stats.json';
 
-    const params =
-      new HttpParams()
-        .set('format', 'json');
-
-    // return this.http.get(gameStatsURL, { headers: this.setHeaders() });
     return this.http.get(gameStatsURL);
   }
 
-  getAllPlayersPastSeasonStats(year: number) {
-    const allPlayersPastSeasonStatsURL = `http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=${year}&format=json`;
-    return this.http.get(allPlayersPastSeasonStatsURL, { headers: this.setHeaders() });
+  getAllPlayersPastSeasonStats(year: string) {
+    const allPlayersPastSeasonStatsURL = `http://localhost:4200/assets/nfl-api-json/${year}/${year}-ps-season.json`;
+
+    return this.http.get(allPlayersPastSeasonStatsURL);
   }
 
-  setHeaders() {
-    const header = 
-      new HttpHeaders()
-        .set('Content-Type', 'application/json');
-        // .set('Access-Control-Allow-Origin', '*');
+  getAllPlayersPastSeasonWeeklyStats(year: string, week: number) {
+    const allPlayersPastSeasonStatsURL = `http://localhost:4200/assets/nfl-api-json/${year}/${year}-ps-week-${week}.json`;
 
-    return header;
+    return this.http.get(allPlayersPastSeasonStatsURL);
   }
 
+  getLeaguePointsMapping(league: string) {
+    const leaguePointsMappingURL = `http://localhost:4200/assets/nfl-api-json/${league}-settings.json`;
+
+    return this.http.get(leaguePointsMappingURL);
+  }
 }
