@@ -1,0 +1,179 @@
+{
+    "ffLeagePoints": [
+      {
+        "id": "5",
+        "desc": "Passing Yards",
+        "points": 0.04
+      },
+      {
+        "id": "6",
+        "desc": "Passing Touchdowns",
+        "points": 4
+      },
+      {
+        "id": "7",
+        "desc": "Interceptions",
+        "points": -1
+      },
+      {
+        "id": "14",
+        "desc": "Rushing Yards",
+        "points": 0.1
+      },
+      {
+        "id": "15",
+        "desc": "Rushing Touchdowns",
+        "points": 6
+      },
+      {
+        "id": "20",
+        "desc": "Receptions",
+        "points": 0.5
+      },
+      {
+        "id": "21",
+        "desc": "Receiving Yards",
+        "points": 0.1
+      },
+      {
+        "id": "22",
+        "desc": "Receiving Touchdowns",
+        "points": 6
+      },
+      {
+        "id": "28",
+        "desc": "Return Touchdowns",
+        "points": 6
+      },
+      {
+        "id": "32",
+        "desc": "2-Point Conversions",
+        "points": 2
+      },
+      {
+        "id": "29",
+        "desc": "Offensive Fumble Return TD",
+        "points": 6
+      },
+      {
+        "id": "35",
+        "desc": "Field Goals 0-19 Yards",
+        "points": 3
+      },
+      {
+        "id": "36",
+        "desc": "Field Goals 20-29 Yards",
+        "points": 3
+      },
+      {
+        "id": "37",
+        "desc": "Field Goals 30-39 Yards",
+        "points": 3
+      },
+      {
+        "id": "38",
+        "desc": "Field Goals 40-49 Yards",
+        "points": 4
+      },
+      {
+        "id": "39",
+        "desc": "Field Goals 50+ Yards",
+        "points": 5
+      },
+      {
+        "id": "40",
+        "desc": "Field Goals Missed 0-19 Yards",
+        "points": -2
+      },
+      {
+        "id": "41",
+        "desc": "Field Goals Missed 20-29 Yards",
+        "points": -1
+      },
+      {
+        "id": "33",
+        "desc": "Point After Attempt Made",
+        "points": 1
+      },
+      {
+        "id": "34",
+        "desc": "Point After Attempt Missed",
+        "points": -1
+      },
+      {
+        "id": "45",
+        "desc": "Sack",
+        "points": 2
+      },
+      {
+        "id": "46",
+        "desc": "Interception",
+        "points": 2
+      },
+      {
+        "id": "47",
+        "desc": "Fumble Recovery",
+        "points": 2
+      },
+      {
+        "id": "50",
+        "desc": "Touchdown",
+        "points": 6
+      },
+      {
+        "id": "49",
+        "desc": "Safety",
+        "points": 2
+      },
+      {
+        "id": "51",
+        "desc": "Block Kick",
+        "points": 2
+      },
+      {
+        "id": "53",
+        "desc": "Kickoff and Punt Return Touchdowns",
+        "points": 6
+      },
+      {
+        "id": "55",
+        "desc": "Points Allowed 0 points",
+        "points": 10
+      },
+      {
+        "id": "56",
+        "desc": "Points Allowed 1-6 points",
+        "points": 7
+      },
+      {
+        "id": "57",
+        "desc": "Points Allowed 7-13 points",
+        "points": 4
+      },
+      {
+        "id": "58",
+        "desc": "Points Allowed 14-20 points",
+        "points": 1
+      },
+      {
+        "id": "59",
+        "desc": "Points Allowed 21-27 points",
+        "points": 0
+      },
+      {
+        "id": "60",
+        "desc": "Points Allowed 28-34 points",
+        "points": -1
+      },
+      {
+        "id": "61",
+        "desc": "Points Allowed 35+ points",
+        "points": -4
+      },
+      {
+        "id": "93",
+        "desc": "Extra Point Returned",
+        "points": 2
+      }
+    ]
+  }

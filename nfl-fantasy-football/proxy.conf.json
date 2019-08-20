@@ -1,0 +1,11 @@
+{
+    "/game-stats": {
+        "target": "http://api.fantasy.nfl.com/v1/game/stats",
+        "secure": false,
+        "loglevel": "debug",
+        "changeOrigin": true,
+        "pathRewrite": {
+            "/game-stats": ""
+        }
+    }
+}
